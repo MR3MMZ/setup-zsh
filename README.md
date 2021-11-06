@@ -7,3 +7,11 @@ bash < <(curl https://raw.githubusercontent.com/MR3MMZ/setup-zsh/main/script.bas
 ```
 curl -s https://raw.githubusercontent.com/MR3MMZ/setup-zsh/main/script.bash | bash -s --
 ```
+
+- install zsh
+```
+sudo dnf install zsh
+```
+
+
+
