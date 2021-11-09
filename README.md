@@ -1,6 +1,6 @@
 # setup-zsh
 
-- run script setup
+> run script setup
 
 ```
 bash < <(curl https://raw.githubusercontent.com/MR3MMZ/setup-zsh/main/script.bash)
@@ -10,22 +10,22 @@ bash < <(curl https://raw.githubusercontent.com/MR3MMZ/setup-zsh/main/script.bas
 curl -s https://raw.githubusercontent.com/MR3MMZ/setup-zsh/main/script.bash | bash -s --
 ```
 
-- install zsh
+> install zsh
 ```
 sudo dnf install zsh
 ```
 
-- install "oh my zsh"
+> install "oh my zsh"
 ```
 curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh; zsh
 ```
 
-- set shell zsh
+> set shell zsh
 ```
 chsh -s $(which zsh)
 ```
 
-- plugins
+> plugins
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
@@ -35,12 +35,12 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
-- set theme in zshrc
+> set theme in zshrc
 ```
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 
-- set plugins
+> set plugins
 ```
 plugins=(
   zsh-syntax-highlighting
@@ -50,7 +50,7 @@ plugins=(
 )
 ```
 
-- setup theme 
+> setup theme 
 ```
 p10k configure
 ```
