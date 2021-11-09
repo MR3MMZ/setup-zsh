@@ -1,7 +1,6 @@
 # setup-zsh
 
 > run script setup
-<p>run scripts in terminal local.</p>
 
 ```
 bash < <(curl https://raw.githubusercontent.com/MR3MMZ/setup-zsh/main/script.bash)
