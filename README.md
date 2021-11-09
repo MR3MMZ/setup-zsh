@@ -9,21 +9,25 @@ bash < <(curl https://raw.githubusercontent.com/MR3MMZ/setup-zsh/main/script.bas
 ```
 curl -s https://raw.githubusercontent.com/MR3MMZ/setup-zsh/main/script.bash | bash -s --
 ```
+<br>
 
 > install zsh
 ```
 sudo dnf install zsh
 ```
+<br>
 
 > install "oh my zsh"
 ```
 curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh; zsh
 ```
+<br>
 
 > set shell zsh
 ```
 chsh -s $(which zsh)
 ```
+<br>
 
 > plugins
 ```
@@ -34,11 +38,13 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
+<br>
 
 > set theme in zshrc
 ```
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
+<br>
 
 > set plugins
 ```
@@ -49,8 +55,10 @@ plugins=(
   zsh-autosuggestions
 )
 ```
+<br>
 
 > setup theme 
 ```
 p10k configure
 ```
+<br>
